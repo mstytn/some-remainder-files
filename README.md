@@ -4,12 +4,24 @@
 
 ```json
 {
-  "clean-webpack-plugin": "^4.0.0",
-  "ts-loader": "^9.3.0",
-  "typescript": "^4.7.3",
-  "webpack": "^5.73.0",
-  "webpack-cli": "^4.9.2",
-  "webpack-dev-server": "^4.9.2"
+  "platform": {
+    "human_readable": "Windows 11 x64 Pro",
+    "uname": "MINGW64_NT-10.0-22000 3.3.3-341.x86_64 2022-01-17 11:45 UTC x86_64"
+  },
+  "node": { 
+    "node": "16.15.1",
+    "npm": "8.12.1",
+    "nvm": "1.1.9",
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.3",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.2"
+   }
 }
 ```
 
