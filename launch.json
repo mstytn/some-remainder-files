@@ -1,7 +1,4 @@
 {
-  // Use IntelliSense to learn about possible attributes.
-  // Hover to view descriptions of existing attributes.
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
     {
@@ -21,7 +18,7 @@
       "runtimeArgs": [
         "--remote-debugging-port=9222"
       ],
-      "url": "http://localhost:3000", // Provide your project's url to finish configuring
+      "url": "http://localhost:3000",
       "webRoot": "${workspaceFolder}/course-starting-project/",
       "pauseForSourceMap": true,
       "sourceMaps": true,
@@ -42,7 +39,7 @@
         "--headless",
         "--remote-debugging-port=9222"
       ],
-      "url": "http://localhost:3000", // Provide your project's url to finish configuring
+      "url": "http://localhost:3000",
       "presentation": {
         "hidden": true
       }
@@ -51,7 +48,7 @@
       "type": "vscode-edge-devtools.debug",
       "name": "Open Edge DevTools",
       "request": "attach",
-      "url": "http://localhost:3000", // Provide your project's url to finish configuring
+      "url": "http://localhost:3000",
       
       "presentation": {
         "hidden": true
